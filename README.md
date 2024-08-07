@@ -13,11 +13,13 @@ Before diving into modeling, it's essential to understand the data. This involve
 Inspecting the first few rows to see the data structure.
 Checking for missing values and data types.
 Generating summary statistics to understand the distribution and range of the data.
+
 4. Data Preprocessing
 Data preprocessing is a critical step to prepare the data for modeling. This involves:
 
 Handling Categorical Variables: The data_source column is a categorical variable that needs to be converted into numerical format using One-Hot Encoding.
 Amino Acid Composition (AAC): Protein sequences are analyzed to calculate the composition of amino acids. This process generates numerical features representing the percentage of each amino acid in the sequence.
+
 5. Combining Features
 After preprocessing, the numerical features (like amino acid composition) are combined with the original data. This step ensures that the dataset includes all the relevant features required for modeling.
 
